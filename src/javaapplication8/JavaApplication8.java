@@ -13,6 +13,7 @@ class NewMain {
         System.out.println("my greeting!");
         System.out.println("now I added this!");
         System.out.println("now I changed this and I try to revert!");
+        System.out.println("now I want to pull!");
     }
 
 }
