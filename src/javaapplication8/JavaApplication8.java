@@ -11,7 +11,6 @@ class NewMain {
      */
     public static void main(String[] args) {
         System.out.println("my greeting!");
-        System.out.println("now I added this!");
     }
 
 }
