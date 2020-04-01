@@ -1,0 +1,48 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package passwordvalidator;
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+/**
+ * A class to test the methods in our passwordValidator
+ * @author dancye, 2018
+ */
+public class PasswordValidatorTest {
+    
+    public PasswordValidatorTest() {
+    }
+        
+    @BeforeEach
+    public void setUp() {
+    }
+    
+    @Test
+    public void testMain() {
+        System.out.println("main");
+        String [] args = null;
+        PasswordValidator.main(args);
+        fail("The test case is prototype.");
+    }
+    
+    /**
+     * Test of checkLength method, of class PasswordValidator.
+     * This test gives a good input of MyPassword123, which should
+     * easily be long enough to be a good length.
+     */
+    @Test
+    public void testCheckLength() {
+        System.out.println("checkLength");
+        String pass = "";
+        boolean expResult = false;
+        boolean result = PasswordValidator.checkLength(pass);
+        assertEquals(expResult, result);
+       fail("The test case is prototype.");
+    }
+    
+}
